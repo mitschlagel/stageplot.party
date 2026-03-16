@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Four timpani bowls, top-down view -->
+  <ellipse cx="30" cy="50" rx="25" ry="22" fill="#e2e8f0"/>
+  <ellipse cx="75" cy="50" rx="28" ry="25" fill="#e2e8f0"/>
+  <ellipse cx="125" cy="50" rx="28" ry="25" fill="#e2e8f0"/>
+  <ellipse cx="170" cy="50" rx="25" ry="22" fill="#e2e8f0"/>
+  <!-- Inner rings -->
+  <ellipse cx="30" cy="50" rx="15" ry="13" stroke="#94a3b8" stroke-width="1"/>
+  <ellipse cx="75" cy="50" rx="18" ry="15" stroke="#94a3b8" stroke-width="1"/>
+  <ellipse cx="125" cy="50" rx="18" ry="15" stroke="#94a3b8" stroke-width="1"/>
+  <ellipse cx="170" cy="50" rx="15" ry="13" stroke="#94a3b8" stroke-width="1"/>
+</svg>

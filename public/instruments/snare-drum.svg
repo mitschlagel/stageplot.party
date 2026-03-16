@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Snare drum top-down: circle with snare wires indicated -->
+  <circle cx="25" cy="25" r="22" fill="#f1f5f9"/>
+  <circle cx="25" cy="25" r="18" fill="#e2e8f0"/>
+  <!-- Snare wires -->
+  <line x1="12" y1="25" x2="38" y2="25" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="2 1.5"/>
+</svg>

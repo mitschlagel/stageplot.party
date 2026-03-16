@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Triangle -->
+  <polygon points="17.5,4 3,31 32,31" fill="none" stroke="#94a3b8" stroke-width="2.5"/>
+  <!-- Clip at top -->
+  <circle cx="17.5" cy="4" r="2" fill="#64748b" stroke="none"/>
+</svg>

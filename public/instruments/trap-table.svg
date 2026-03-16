@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 45" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Trap table: rectangular surface with padding -->
+  <rect x="3" y="3" width="74" height="39" rx="3" fill="#d1fae5"/>
+  <!-- Carpet/padding indication -->
+  <rect x="8" y="8" width="64" height="29" rx="2" fill="#a7f3d0" stroke="#6ee7b7" stroke-width="1"/>
+</svg>

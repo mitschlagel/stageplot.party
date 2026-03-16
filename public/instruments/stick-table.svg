@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 35" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Stick/mallet table: narrow rectangle -->
+  <rect x="3" y="3" width="54" height="29" rx="3" fill="#dbeafe"/>
+  <rect x="8" y="8" width="44" height="19" rx="2" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+</svg>

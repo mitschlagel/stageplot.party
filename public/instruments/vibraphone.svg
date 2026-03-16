@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 60" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Vibraphone keyboard, top-down -->
+  <rect x="5" y="5" width="140" height="50" rx="3" fill="#c4b5fd"/>
+  <!-- Bar lines -->
+  <line x1="22" y1="5" x2="22" y2="55" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="39" y1="5" x2="39" y2="55" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="56" y1="5" x2="56" y2="55" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="73" y1="5" x2="73" y2="55" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="90" y1="5" x2="90" y2="55" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="107" y1="5" x2="107" y2="55" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="124" y1="5" x2="124" y2="55" stroke="#7c3aed" stroke-width="1"/>
+  <!-- Motor circle indicator -->
+  <circle cx="135" cy="30" r="5" fill="#7c3aed" stroke="none"/>
+  <rect x="5" y="5" width="140" height="50" rx="3" fill="none"/>
+</svg>

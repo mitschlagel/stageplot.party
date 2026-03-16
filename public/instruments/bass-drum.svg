@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Bass drum top-down: large circle -->
+  <circle cx="40" cy="40" r="36" fill="#f1f5f9"/>
+  <circle cx="40" cy="40" r="28" fill="#e2e8f0"/>
+  <circle cx="40" cy="40" r="5" fill="#cbd5e1" stroke="none"/>
+</svg>

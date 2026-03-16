@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Crotales - small discs on a bar -->
+  <rect x="5" y="15" width="70" height="10" rx="2" fill="#e5e7eb"/>
+  <circle cx="15" cy="20" r="5" fill="#fde68a" stroke="#d97706" stroke-width="1"/>
+  <circle cx="28" cy="20" r="5" fill="#fde68a" stroke="#d97706" stroke-width="1"/>
+  <circle cx="41" cy="20" r="5" fill="#fde68a" stroke="#d97706" stroke-width="1"/>
+  <circle cx="54" cy="20" r="5" fill="#fde68a" stroke="#d97706" stroke-width="1"/>
+  <circle cx="67" cy="20" r="5" fill="#fde68a" stroke="#d97706" stroke-width="1"/>
+</svg>

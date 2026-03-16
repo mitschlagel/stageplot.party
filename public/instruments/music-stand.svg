@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 35" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Music stand top-down: rectangular desk -->
+  <rect x="5" y="5" width="35" height="25" rx="2" fill="#d1d5db"/>
+  <!-- Stand pole -->
+  <circle cx="22.5" cy="30" r="3" fill="#9ca3af" stroke="none"/>
+</svg>

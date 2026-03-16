@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 70" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Larger keyboard, top-down -->
+  <rect x="5" y="5" width="170" height="60" rx="3" fill="#fbbf24"/>
+  <!-- Bar lines -->
+  <line x1="20" y1="5" x2="20" y2="65" stroke="#b45309" stroke-width="1"/>
+  <line x1="38" y1="5" x2="38" y2="65" stroke="#b45309" stroke-width="1"/>
+  <line x1="56" y1="5" x2="56" y2="65" stroke="#b45309" stroke-width="1"/>
+  <line x1="74" y1="5" x2="74" y2="65" stroke="#b45309" stroke-width="1"/>
+  <line x1="92" y1="5" x2="92" y2="65" stroke="#b45309" stroke-width="1"/>
+  <line x1="110" y1="5" x2="110" y2="65" stroke="#b45309" stroke-width="1"/>
+  <line x1="128" y1="5" x2="128" y2="65" stroke="#b45309" stroke-width="1"/>
+  <line x1="146" y1="5" x2="146" y2="65" stroke="#b45309" stroke-width="1"/>
+  <line x1="164" y1="5" x2="164" y2="65" stroke="#b45309" stroke-width="1"/>
+  <!-- Frame -->
+  <rect x="5" y="5" width="170" height="60" rx="3" fill="none"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Keyboard bars, top-down -->
+  <rect x="5" y="5" width="130" height="50" rx="3" fill="#fde68a"/>
+  <!-- Bar lines -->
+  <line x1="20" y1="5" x2="20" y2="55" stroke="#d97706" stroke-width="1"/>
+  <line x1="35" y1="5" x2="35" y2="55" stroke="#d97706" stroke-width="1"/>
+  <line x1="50" y1="5" x2="50" y2="55" stroke="#d97706" stroke-width="1"/>
+  <line x1="65" y1="5" x2="65" y2="55" stroke="#d97706" stroke-width="1"/>
+  <line x1="80" y1="5" x2="80" y2="55" stroke="#d97706" stroke-width="1"/>
+  <line x1="95" y1="5" x2="95" y2="55" stroke="#d97706" stroke-width="1"/>
+  <line x1="110" y1="5" x2="110" y2="55" stroke="#d97706" stroke-width="1"/>
+  <line x1="125" y1="5" x2="125" y2="55" stroke="#d97706" stroke-width="1"/>
+  <!-- Frame -->
+  <rect x="5" y="5" width="130" height="50" rx="3" fill="none"/>
+</svg>
