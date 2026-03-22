@@ -1,6 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" stroke="#334155" stroke-width="2">
-  <!-- Bass drum top-down: large circle -->
-  <circle cx="40" cy="40" r="36" fill="#f1f5f9"/>
-  <circle cx="40" cy="40" r="28" fill="#e2e8f0"/>
-  <circle cx="40" cy="40" r="5" fill="#cbd5e1" stroke="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Bass drum from above: wide vertical rectangle (shell visible, heads face left/right) -->
+  <rect x="25" y="5" width="50" height="70" rx="3" fill="#e2e8f0"/>
+  <!-- Head rims -->
+  <line x1="25" y1="8" x2="75" y2="8" stroke="#94a3b8" stroke-width="2.5"/>
+  <line x1="25" y1="72" x2="75" y2="72" stroke="#94a3b8" stroke-width="2.5"/>
+  <!-- Shell hardware lugs -->
+  <circle cx="25" cy="20" r="1.5" fill="#94a3b8" stroke="none"/>
+  <circle cx="75" cy="20" r="1.5" fill="#94a3b8" stroke="none"/>
+  <circle cx="25" cy="40" r="1.5" fill="#94a3b8" stroke="none"/>
+  <circle cx="75" cy="40" r="1.5" fill="#94a3b8" stroke="none"/>
+  <circle cx="25" cy="60" r="1.5" fill="#94a3b8" stroke="none"/>
+  <circle cx="75" cy="60" r="1.5" fill="#94a3b8" stroke="none"/>
+  <!-- Stand feet -->
+  <line x1="18" y1="30" x2="25" y2="30" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="18" y1="50" x2="25" y2="50" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="75" y1="30" x2="82" y2="30" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="75" y1="50" x2="82" y2="50" stroke="#94a3b8" stroke-width="1.5"/>
 </svg>

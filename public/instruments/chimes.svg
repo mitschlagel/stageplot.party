@@ -1,11 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 80" fill="none" stroke="#334155" stroke-width="2">
-  <!-- Tubular bells, top-down - vertical tubes -->
-  <rect x="5" y="5" width="40" height="70" rx="2" fill="#d1d5db"/>
-  <line x1="12" y1="5" x2="12" y2="75" stroke="#6b7280" stroke-width="1.5"/>
-  <line x1="19" y1="5" x2="19" y2="75" stroke="#6b7280" stroke-width="1.5"/>
-  <line x1="26" y1="5" x2="26" y2="75" stroke="#6b7280" stroke-width="1.5"/>
-  <line x1="33" y1="5" x2="33" y2="75" stroke="#6b7280" stroke-width="1.5"/>
-  <line x1="40" y1="5" x2="40" y2="75" stroke="#6b7280" stroke-width="1.5"/>
-  <!-- Damper pedal indicator -->
-  <circle cx="25" cy="72" r="3" fill="#6b7280" stroke="none"/>
+  <!-- Chimes from above: rectangle frame with two rows of tube tops -->
+  <rect x="3" y="3" width="44" height="74" rx="3" fill="#d1d5db"/>
+  <!-- Left row (naturals) -->
+  <circle cx="16" cy="10" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="16" cy="20" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="16" cy="30" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="16" cy="40" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="16" cy="50" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="16" cy="60" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="16" cy="70" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <!-- Right row (sharps) -->
+  <circle cx="34" cy="15" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="34" cy="25" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="34" cy="35" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="34" cy="45" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="34" cy="55" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="34" cy="65" r="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
 </svg>

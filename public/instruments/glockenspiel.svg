@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 45" fill="none" stroke="#334155" stroke-width="2">
-  <!-- Small keyboard, top-down -->
-  <rect x="5" y="5" width="90" height="35" rx="2" fill="#bfdbfe"/>
-  <line x1="18" y1="5" x2="18" y2="40" stroke="#3b82f6" stroke-width="1"/>
-  <line x1="31" y1="5" x2="31" y2="40" stroke="#3b82f6" stroke-width="1"/>
-  <line x1="44" y1="5" x2="44" y2="40" stroke="#3b82f6" stroke-width="1"/>
-  <line x1="57" y1="5" x2="57" y2="40" stroke="#3b82f6" stroke-width="1"/>
-  <line x1="70" y1="5" x2="70" y2="40" stroke="#3b82f6" stroke-width="1"/>
-  <line x1="83" y1="5" x2="83" y2="40" stroke="#3b82f6" stroke-width="1"/>
-  <rect x="5" y="5" width="90" height="35" rx="2" fill="none"/>
+  <!-- Glockenspiel from above: trapezoid, narrow end on right (high notes) -->
+  <polygon points="5,4 95,11 95,34 5,41" fill="#bfdbfe" stroke="#334155" stroke-width="2"/>
+  <!-- Bar lines -->
+  <line x1="18" y1="5.0" x2="18" y2="40.0" stroke="#3b82f6" stroke-width="1"/>
+  <line x1="31" y1="6.0" x2="31" y2="39.0" stroke="#3b82f6" stroke-width="1"/>
+  <line x1="44" y1="7.0" x2="44" y2="38.0" stroke="#3b82f6" stroke-width="1"/>
+  <line x1="57" y1="8.0" x2="57" y2="37.0" stroke="#3b82f6" stroke-width="1"/>
+  <line x1="70" y1="9.0" x2="70" y2="36.0" stroke="#3b82f6" stroke-width="1"/>
+  <line x1="83" y1="10.0" x2="83" y2="35.0" stroke="#3b82f6" stroke-width="1"/>
+
 </svg>

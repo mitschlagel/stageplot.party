@@ -1,15 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 60" fill="none" stroke="#334155" stroke-width="2">
-  <!-- Vibraphone keyboard, top-down -->
-  <rect x="5" y="5" width="140" height="50" rx="3" fill="#c4b5fd"/>
+  <!-- Vibraphone from above: trapezoid, narrow end on right (high notes) -->
+  <polygon points="5,5 145,13 145,47 5,55" fill="#c4b5fd" stroke="#334155" stroke-width="2"/>
   <!-- Bar lines -->
-  <line x1="22" y1="5" x2="22" y2="55" stroke="#7c3aed" stroke-width="1"/>
-  <line x1="39" y1="5" x2="39" y2="55" stroke="#7c3aed" stroke-width="1"/>
-  <line x1="56" y1="5" x2="56" y2="55" stroke="#7c3aed" stroke-width="1"/>
-  <line x1="73" y1="5" x2="73" y2="55" stroke="#7c3aed" stroke-width="1"/>
-  <line x1="90" y1="5" x2="90" y2="55" stroke="#7c3aed" stroke-width="1"/>
-  <line x1="107" y1="5" x2="107" y2="55" stroke="#7c3aed" stroke-width="1"/>
-  <line x1="124" y1="5" x2="124" y2="55" stroke="#7c3aed" stroke-width="1"/>
-  <!-- Motor circle indicator -->
-  <circle cx="135" cy="30" r="5" fill="#7c3aed" stroke="none"/>
-  <rect x="5" y="5" width="140" height="50" rx="3" fill="none"/>
+  <line x1="22" y1="6.2" x2="22" y2="53.8" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="39" y1="7.4" x2="39" y2="52.6" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="56" y1="8.6" x2="56" y2="51.4" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="73" y1="9.9" x2="73" y2="50.1" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="90" y1="11.1" x2="90" y2="48.9" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="107" y1="12.3" x2="107" y2="47.7" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="124" y1="13.5" x2="124" y2="46.5" stroke="#7c3aed" stroke-width="1"/>
+  <!-- Motor/pedal indicator -->
+  <circle cx="137" cy="30" r="4" fill="#7c3aed" stroke="none" opacity="0.6"/>
+  <!-- Frame legs -->
+  <circle cx="18" cy="30" r="2.5" fill="#5b21b6" stroke="none"/>
+  <circle cx="132" cy="30" r="2.5" fill="#5b21b6" stroke="none"/>
 </svg>

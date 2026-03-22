@@ -3,28 +3,13 @@ import type { InstrumentDef } from '../types';
 export const instrumentCatalog: InstrumentDef[] = [
   // ── Pitched Percussion ──
   {
-    category: 'timpani-set',
-    displayName: 'Timpani (set of 4)',
-    type: 'instrument',
-    svgPath: '/instruments/timpani-set.svg',
-    defaultWidth: 200,
-    defaultHeight: 100,
-  },
-  {
-    category: 'timpani-single',
-    displayName: 'Timpani (single)',
-    type: 'instrument',
-    svgPath: '/instruments/timpani-single.svg',
-    defaultWidth: 60,
-    defaultHeight: 60,
-  },
-  {
     category: 'xylophone',
     displayName: 'Xylophone',
     type: 'instrument',
     svgPath: '/instruments/xylophone.svg',
     defaultWidth: 140,
     defaultHeight: 60,
+    defaultShowLabel: true,
   },
   {
     category: 'marimba',
@@ -33,6 +18,7 @@ export const instrumentCatalog: InstrumentDef[] = [
     svgPath: '/instruments/marimba.svg',
     defaultWidth: 180,
     defaultHeight: 70,
+    defaultShowLabel: true,
   },
   {
     category: 'vibraphone',
@@ -41,6 +27,7 @@ export const instrumentCatalog: InstrumentDef[] = [
     svgPath: '/instruments/vibraphone.svg',
     defaultWidth: 150,
     defaultHeight: 60,
+    defaultShowLabel: true,
   },
   {
     category: 'glockenspiel',
@@ -49,6 +36,7 @@ export const instrumentCatalog: InstrumentDef[] = [
     svgPath: '/instruments/glockenspiel.svg',
     defaultWidth: 100,
     defaultHeight: 45,
+    defaultShowLabel: true,
   },
   {
     category: 'chimes',
@@ -57,14 +45,16 @@ export const instrumentCatalog: InstrumentDef[] = [
     svgPath: '/instruments/chimes.svg',
     defaultWidth: 50,
     defaultHeight: 80,
+    defaultShowLabel: true,
   },
   {
     category: 'crotales',
     displayName: 'Crotales',
     type: 'instrument',
     svgPath: '/instruments/crotales.svg',
-    defaultWidth: 80,
+    defaultWidth: 84,
     defaultHeight: 40,
+    defaultShowLabel: true,
   },
   // ── Drums ──
   {
@@ -74,14 +64,16 @@ export const instrumentCatalog: InstrumentDef[] = [
     svgPath: '/instruments/snare-drum.svg',
     defaultWidth: 50,
     defaultHeight: 50,
+    defaultShowLabel: true,
   },
   {
     category: 'bass-drum',
     displayName: 'Bass Drum',
     type: 'instrument',
     svgPath: '/instruments/bass-drum.svg',
-    defaultWidth: 80,
+    defaultWidth: 100,
     defaultHeight: 80,
+    defaultShowLabel: true,
   },
   {
     category: 'concert-toms',
@@ -90,6 +82,32 @@ export const instrumentCatalog: InstrumentDef[] = [
     svgPath: '/instruments/concert-toms.svg',
     defaultWidth: 120,
     defaultHeight: 50,
+  },
+  {
+    category: 'congas',
+    displayName: 'Congas',
+    type: 'instrument',
+    svgPath: '/instruments/congas.svg',
+    defaultWidth: 75,
+    defaultHeight: 40,
+    defaultShowLabel: true,
+  },
+  {
+    category: 'bongos',
+    displayName: 'Bongos',
+    type: 'instrument',
+    svgPath: '/instruments/bongos.svg',
+    defaultWidth: 55,
+    defaultHeight: 35,
+    defaultShowLabel: true,
+  },
+  {
+    category: 'tambourine',
+    displayName: 'Tambourine',
+    type: 'instrument',
+    svgPath: '/instruments/tambourine.svg',
+    defaultWidth: 36,
+    defaultHeight: 36,
   },
   // ── Cymbals & Metals ──
   {
@@ -124,6 +142,39 @@ export const instrumentCatalog: InstrumentDef[] = [
     defaultWidth: 35,
     defaultHeight: 35,
   },
+  {
+    category: 'sleigh-bells',
+    displayName: 'Sleigh Bells',
+    type: 'instrument',
+    svgPath: '/instruments/sleigh-bells.svg',
+    defaultWidth: 35,
+    defaultHeight: 55,
+  },
+  // ── Wood ──
+  {
+    category: 'wood-block',
+    displayName: 'Wood Block',
+    type: 'instrument',
+    svgPath: '/instruments/wood-block.svg',
+    defaultWidth: 40,
+    defaultHeight: 25,
+  },
+  {
+    category: 'temple-blocks',
+    displayName: 'Temple Blocks',
+    type: 'instrument',
+    svgPath: '/instruments/temple-blocks.svg',
+    defaultWidth: 100,
+    defaultHeight: 35,
+  },
+  {
+    category: 'castanets',
+    displayName: 'Castanets',
+    type: 'instrument',
+    svgPath: '/instruments/castanets.svg',
+    defaultWidth: 40,
+    defaultHeight: 50,
+  },
   // ── Furniture ──
   {
     category: 'music-stand',
@@ -146,7 +197,7 @@ export const instrumentCatalog: InstrumentDef[] = [
     displayName: 'Stick / Mallet Table',
     type: 'furniture',
     svgPath: '/instruments/stick-table.svg',
-    defaultWidth: 60,
+    defaultWidth: 45,
     defaultHeight: 35,
   },
   {
@@ -158,12 +209,12 @@ export const instrumentCatalog: InstrumentDef[] = [
     defaultHeight: 35,
   },
   {
-    category: 'riser',
-    displayName: 'Riser / Platform',
+    category: 'road-case',
+    displayName: 'Road Case',
     type: 'furniture',
-    svgPath: '/instruments/riser.svg',
-    defaultWidth: 200,
-    defaultHeight: 120,
+    svgPath: '/instruments/road-case.svg',
+    defaultWidth: 120,
+    defaultHeight: 70,
   },
 ];
 

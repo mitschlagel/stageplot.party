@@ -8,6 +8,7 @@ export interface PlotObject {
   scaleX: number;
   scaleY: number;
   label: string;
+  showLabel: boolean;
   locked: boolean;
   zIndex: number;
 }
@@ -29,4 +30,5 @@ export interface InstrumentDef {
   svgPath: string;
   defaultWidth: number;
   defaultHeight: number;
+  defaultShowLabel?: boolean;
 }

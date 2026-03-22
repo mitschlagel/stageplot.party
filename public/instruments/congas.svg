@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 40" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Congas from above: two circles, larger on right -->
+  <!-- Smaller conga (left) -->
+  <circle cx="18" cy="20" r="15" fill="#d4a373"/>
+  <circle cx="18" cy="20" r="11" fill="#e8c9a0"/>
+  <!-- Larger conga (right) -->
+  <circle cx="55" cy="20" r="17" fill="#d4a373"/>
+  <circle cx="55" cy="20" r="13" fill="#e8c9a0"/>
+</svg>

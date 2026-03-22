@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Tambourine from above: single circle with 6 jingles on the rim -->
+  <circle cx="25" cy="25" r="20" fill="#e2e8f0"/>
+  <!-- Jingles on the rim, evenly spaced at 60° intervals -->
+  <circle cx="25" cy="5" r="5" fill="#fde68a" stroke="#d97706" stroke-width="0.8"/>
+  <circle cx="42.3" cy="15" r="5" fill="#fde68a" stroke="#d97706" stroke-width="0.8"/>
+  <circle cx="42.3" cy="35" r="5" fill="#fde68a" stroke="#d97706" stroke-width="0.8"/>
+  <circle cx="25" cy="45" r="5" fill="#fde68a" stroke="#d97706" stroke-width="0.8"/>
+  <circle cx="7.7" cy="35" r="5" fill="#fde68a" stroke="#d97706" stroke-width="0.8"/>
+  <circle cx="7.7" cy="15" r="5" fill="#fde68a" stroke="#d97706" stroke-width="0.8"/>
+</svg>

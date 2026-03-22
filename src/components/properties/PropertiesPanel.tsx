@@ -46,9 +46,22 @@ export default function PropertiesPanel() {
       <div className="flex-1 overflow-y-auto p-3 space-y-4">
         {/* Label */}
         <div>
-          <label className="block text-xs font-medium text-gray-500 mb-1">
-            Label
-          </label>
+          <div className="flex items-center justify-between mb-1">
+            <label className="block text-xs font-medium text-gray-500">
+              Label
+            </label>
+            {selected.type !== 'text' && (
+              <label className="flex items-center gap-1 text-xs text-gray-500">
+                <input
+                  type="checkbox"
+                  checked={selected.showLabel}
+                  onChange={(e) => handleChange('showLabel', e.target.checked)}
+                  className="rounded"
+                />
+                Show
+              </label>
+            )}
+          </div>
           <input
             type="text"
             value={selected.label}

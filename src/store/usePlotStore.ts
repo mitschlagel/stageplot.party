@@ -73,6 +73,7 @@ export const usePlotStore = create<PlotStore>((set, get) => ({
       scaleX: 1,
       scaleY: 1,
       label: def.displayName,
+      showLabel: def.defaultShowLabel ?? false,
       locked: false,
       zIndex: get().objects.length,
     };
@@ -94,6 +95,7 @@ export const usePlotStore = create<PlotStore>((set, get) => ({
       scaleX: 1,
       scaleY: 1,
       label: 'Text',
+      showLabel: true,
       locked: false,
       zIndex: get().objects.length,
     };
@@ -212,13 +214,18 @@ export const usePlotStore = create<PlotStore>((set, get) => ({
   loadPlot: async (id) => {
     const plot = await loadPlotFromDb(id);
     if (!plot) return;
+    // Migrate objects missing new label fields
+    const objects = plot.objects.map((obj) => ({
+      showLabel: true,
+      ...obj,
+    }));
     set({
       plotId: plot.id,
       plotName: plot.name,
       canvasSize: { width: plot.canvasWidth, height: plot.canvasHeight },
-      objects: plot.objects,
+      objects,
       selectedId: null,
-      history: [cloneObjects(plot.objects)],
+      history: [cloneObjects(objects)],
       historyIndex: 0,
     });
   },

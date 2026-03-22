@@ -33,16 +33,11 @@ export default function InstrumentPalette() {
 
   return (
     <div className="w-56 bg-white border-r border-gray-200 flex flex-col overflow-hidden">
-      <div className="px-3 py-2 border-b border-gray-200 bg-gray-50">
-        <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
-          Instruments
-        </h2>
-      </div>
       <div className="flex-1 overflow-y-auto p-1.5">
         {/* Instruments */}
         <div className="mb-3">
           <div className="px-2 py-1 text-[10px] font-semibold text-gray-400 uppercase tracking-wider">
-            Pitched & Drums
+            Instruments
           </div>
           {instruments.map((def) => (
             <PaletteItem key={def.category} def={def} />

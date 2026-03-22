@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 35" fill="none" stroke="#334155" stroke-width="2">
+  <!-- Bongos from above: two circles, larger on right -->
+  <!-- Smaller bongo (left) -->
+  <circle cx="14" cy="17.5" r="11" fill="#d4a373"/>
+  <circle cx="14" cy="17.5" r="8" fill="#e8c9a0"/>
+  <!-- Larger bongo (right) -->
+  <circle cx="38" cy="17.5" r="14" fill="#d4a373"/>
+  <circle cx="38" cy="17.5" r="10.5" fill="#e8c9a0"/>
+</svg>

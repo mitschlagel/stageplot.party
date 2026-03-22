@@ -113,17 +113,19 @@ export default function PlotObjectNode({
         <KonvaImage image={image} width={width} height={height} />
       )}
       {/* Label below the instrument */}
-      <Text
-        text={obj.label}
-        fontSize={11}
-        fontFamily="system-ui, sans-serif"
-        fill="#475569"
-        width={width}
-        align="center"
-        y={height + 2}
-        listening={false}
-      />
-      {/* Selection highlight */}
+      {obj.showLabel && (
+        <Text
+          text={obj.label}
+          fontSize={11}
+          fontFamily="system-ui, sans-serif"
+          fill="#475569"
+          width={width}
+          align="center"
+          y={height + 2}
+          listening={false}
+        />
+      )}
+      {/* Selection highlight when no image loaded */}
       {isSelected && !image && (
         <Text
           text={obj.label}
